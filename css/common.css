@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* 通用网站基本样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+    font-family: 'PingFangSC-Regular', 'helvetica neue', tahoma, 'PingFang SC', 'microsoft yahei', arial, 'hiragino sans gb', sans-serif;
+
+}
+html{
+}
+/* 网站公共头部样式区域 */
+body{
+    position: relative;
+}
+header{
+    z-index: 5;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+header .head-centero{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+header .head-left{
+    order: 0;
+}
+header .head-left h1{
+    text-indent: -99999px;
+    background: url(../img/menu_logo.png) no-repeat 0 0 ;
+    width:200px; 
+    display: block;
+    height: 26px;
+    margin-top: 10%;
+    color: #ffffff;
+    font-style: oblique;
+    background-size: 100% 100%;
+}
+header .head-center{
+    transition: all 0.3s;
+    order: 1;
+}
+header .head-center>ul{
+    font-size: 16px;
+}
+header .head-center:hover>ul>li>a{
+    color: #272727;
+    transition: color 0.3s;
+}
+header .head-center>ul>li{
+    position: relative;
+    display: inline-block;
+}
+header .head-center>ul>li>a{
+    line-height: 72px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0 20px;
+}
+header .head-center:hover + .head-left  h1{
+    background: url(../img/tencent_logo.png)no-repeat 0 0 ;
+    background-size: 100% 100%;
+    transition: all 0.3s;
+}
+
+header .head-center>ul>li>ul{
+    z-index: -2;
+    position: absolute;
+    left: -90vw;
+    padding-left: 90vw;
+    top:60px;
+    z-index: 5 !important;
+    height: 380px;
+    width: 170vw;
+    display: none;
+}
+header .head-center>ul>li:hover>a{
+    padding-bottom: 6px;
+    z-index: 5;
+    border-bottom: #194ac3 4px solid;
+    transition: all 0.3s;
+}
+
+header .head-center li:hover>ul{
+    background: #ffffff;
+    background-clip: border-box;
+    line-height:50px;
+    transition: all 0.3s;
+}
+header .head-center>ul>li>ul>li{
+    position: relative;
+    left:-30px;
+    width: 150px;
+    text-align: center;
+}
+header .head-center>ul>li>ul>li>a{
+    line-height: 40px;
+    color: #686868;
+}
+header .head-center>ul>li>ul>li:hover>a{
+    color: #252525;
+}
+header .head-right{
+    order: 1;
+    color: #b8b8b8;
+    line-height: 64px;
+    font-size: 16px;
+}
+header .head-right a{
+    margin: 2px;
+    color: #b1b1b1;
+}
+header .head-right a:hover{
+    color: #ffffff;
+}
+
+
+/* 返回顶部样式区域 */
+#top{
+    display: none;
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    z-index: 9999;
+    width: 100px;
+    height: 100px;
+    color: #e4e4e4;
+}
+#top span{
+    color: rgb(223, 223, 223);
+    line-height: 40px;
+    font-size: 40px;
+}
+/* 网站公共首页样式区域 */
+footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+footer .foot-top{
+    
+    color: #5f6464;
+    font-size: 20px;
+}
+footer .foot-top h3{
+    display: inline-block;
+}
+footer .foot-top a{
+    position: relative;
+    color: #5f6464;
+    margin-left: 20px;
+    font-size: 22px;
+    display: inline-block;
+}
+footer .foot-top a:nth-child(2):hover{
+    color: #1aad19;
+}
+footer .foot-top a:nth-child(2) img{
+    position: absolute;
+    display: none;
+    opacity: 0;
+    transition: all 0.5s;
+    bottom: 30px;
+    left: 0;
+}
+footer .foot-top a:nth-child(2):hover img{
+    opacity: 1;
+    z-index: 5;
+    display: inline-block;
+}
+footer .foot-top a:nth-child(3):hover{
+    color: #ea2a3f;
+}
+footer .foot-top a:nth-child(4):hover{
+    color: #1da1f2;
+}
+footer .foot-top a:nth-child(5):hover{
+    color: #0073b1;
+}
+footer .foot-center{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .foot-center ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+footer .foot-center li{
+    color: #5f6464;
+    display: inline-block;
+}
+footer .foot-center li h3{
+    line-height: 38px;
+}
+footer .foot-center li a{
+    color: #5f6464;
+    font-size: 15px;
+    line-height: 30px;
+}
+footer .foot-center img{
+    align-self: center;
+}
+footer .foot-bottom{
+    color: #5f6464;
+    display: flex;
+    font-size: 16px;
+    line-height: 100px;
+    justify-content: space-between;
+}
+footer .foot-bottom p a{
+    color: #5f6464;
+}
+footer .foot-bottom{}

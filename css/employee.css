@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* 第四页面员工页面的基础样式 */
+.employee{
+    margin-top: 72px;
+}
+
+
+/* 第四页面员工的banner */
+.employee .employee-banner{
+    margin-bottom: 100px;
+    width: 100%;
+    height: 600px;
+    background: url(../img/employee/banner.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.employee .employee-banner h2{
+    padding-top: 12%;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 100 !important;
+    margin-left: 13%;
+}
+.employee .employee-banner p{
+    margin-left: 13%;
+    line-height: 30px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+
+/* 第三页面中的人才发展部分样式 */
+.employee-developing{
+    width: 80%;
+    padding-top : 100px;
+    margin: 0 auto;
+    height: 650px;
+    background: url(../img/employee/pic-bg-1.jpg) no-repeat;
+    background-size: 100% 100% ;
+}
+.employee-developing div{
+    display: block;
+    width: 520px ;
+    padding: 64px 88px 88px 64px;
+    background: #ffffff;
+}
+.employee-developing div h3{
+    font-weight: 900;
+    font-style: italic;
+    line-height: 70px;
+}
+.employee-developing div h4{
+    font-size: 20px;
+}
+.employee-developing div p{
+    color: #666666;
+    font-size: 15px;
+}
+
+
+
+/* 第三页面中的第一次图片部分 */
+.employee-img{
+    margin-top: 200px;
+    background: url(../img/employee/pic-bg-2.jpg) no-repeat;
+    background-size: 100% 100%;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 150px !important;
+    height: 550px;
+}
+.employee-img div{
+    position: absolute;
+    right: -20px;
+    top: 50px;
+    background: #ffffff;
+    width: 680px;
+    padding: 64px 64px 88px 88px;
+}
+.employee-img div img{
+    height: 60px;
+}
+.employee-img div h4{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 100 !important;
+}
+.employee-img div p{
+    color: #666666;
+}
+
+
+/* 第三页面的办公坏境 */
+.employee-work{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.employee-work h2{
+    line-height: 60px;
+    text-align: center;
+}
+.employee-work .work-sec{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.employee-work .work-sec div{
+    width: 49%;
+}
+.employee-work .work-sec div img{
+    width: 90%; 
+}
+.employee-work .work-sec div h4{
+    line-height: 40px;
+
+}
+.employee-work .work-sec div p{
+    color: #666666;
+}
+
+/* 第三页面的员工大会 */
+.employee-activity{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.employee-activity>h4{
+    margin-left: 10%;
+    font-size: 30px;
+    line-height: 50px;
+
+}
+.employee-activity>ul{
+    width: 100%;
+}
+.employee-activity>ul>li{
+    float: left;
+    height: 280px;
+
+}
+
+.employee-activity>h4>p{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 100px;
+    color: #666666;
+}
+
+.employee-activity>ul>li{
+    position: relative;
+}
+.employee-activity>ul>li>a{
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
+.employee-activity>ul>li>a img{
+    width: 100%;
+    height: 100%;
+}
+.employee-activity>ul>li>a h4{
+    z-index: 66;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    color: #f0f0f0;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.employee-activity>ul>li>a p{
+    width: 100%;
+    height: 0px;
+    transition: all 1s;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    bottom: 0;
+    margin: 0;
+    color: #ffffff;
+    padding: 0 40px;
+    font-size: 18px;
+    background: red;
+    /* background: red; */
+
+}
+
+
+
+.employee-activity ul li:nth-child(1) a p{
+    background: #0052d9;
+}
+.employee-activity ul li:nth-child(2) a p{
+    background: #9626b6;
+}
+.employee-activity ul li:nth-child(3) a p{
+    background: #00a9ce;
+}
+.employee-activity ul li:nth-child(4) a p{
+    background: #ff671f;
+}
+.employee-activity ul li:nth-child(5) a p{
+    background: #00a9ce;
+}
+
+.employee-activity ul li:nth-child(6) a p{
+    background: #968c83;
+}
+.employee-activity ul li:nth-child(7) a p{
+    background: #79c000;
+}
+
+
+
+.employee-activity>ul>li:hover>a p{
+    height: 100% !important;
+    left: 0 ;
+    visibility: visible;
+    bottom: 0;
+    padding: 100px 40px;
+}
+
+.employee-activity ul li:first-child,
+.employee-activity ul li:last-child{
+    width: 66%;
+}
+
+.employee-activity ul li:nth-child(2),
+.employee-activity ul li:nth-child(3),
+.employee-activity ul li:nth-child(4),
+.employee-activity ul li:nth-child(5),
+.employee-activity ul li:nth-child(6){
+    width: 33%;
+}
+
+
+
+
+/* 第三页面的加入我们的 */
+.employee-join{
+    margin-bottom: 100px !important;
+    width: 70%;
+    height: 350px;
+    margin: 0 auto;
+    background: url(../img/employee/join-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.employee-join a{
+    padding-top: 100px !important;
+    padding-left: 100px !important;
+}
+.employee-join h4{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 35px;
+    line-height: 60px;
+    color: #666666;
+}
+.employee-join p{
+    margin-left: 100px;
+}
+.employee-join p img{
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+}

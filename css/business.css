@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* 网站第三页面的样式区域 */
+.business{}
+header{
+    background: #ffffff !important;
+}
+/* 网站第三页面的banner样式区域 */
+.business .business-banner{
+    margin-top: 72px;
+    box-sizing: border-box;
+    padding: 0  10%;
+    width: 100%;
+    height: 550px;
+    background:url(../img/business-banner.jpg) no-repeat;
+    background-size: cover;
+}
+.business .business-banner h2{
+    font-size: 45px;    
+    font-style: italic;
+    font-weight: 100;
+    color: #2A2E2E;
+    font-family: 'TencentSansw3';
+    padding-top: 220px;  
+}
+.business .business-banner p{
+    color: #363636;
+    line-height: 50px;
+}
+/*  网站第三页面的内容样式区域  */
+.business-section{
+    width: 80%;
+    margin: 0 auto;
+}
+/* 网站第三页面的内容导航的样式区域 */
+.business-section .business-nav{
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+    background-clip: border-box;
+    padding: 0 13%;
+}
+.business-section .business-nav .btnactive{
+    color: #000000;
+}
+.business-section .business-nav a{
+    margin: 0 20px;
+    font-size: 20px;
+    line-height: 72px;
+    color: rgb(112, 112, 112);
+}
+/* 网站第三页面面向用户区域 */
+#section-user{
+    margin: 0 auto;
+    
+}
+#section-user .section-user-item{
+    margin: 200px 0;
+    display: flex;
+}
+#section-user .section-user-item .user-text{
+    width: 30%;
+    margin: auto 0;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+#section-user .section-user-item .user-text h3{
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 20px;
+    
+}
+#section-user .section-user-item .user-text p{
+    font-size: 14px;
+    color: #5f6464;
+}
+#section-user .section-user-item .user-icon{
+    width: 70%;
+}
+#section-user .section-user-item .user-icon a{
+    display: inline-block;
+    width: 24%;
+    box-sizing: border-box;
+    margin: 30px auto;
+    text-align: center;
+}
+#section-user .section-user-item .user-icon img{
+    width: 40%;
+    margin: 10px 0;
+    
+}
+#section-user .section-user-item .user-icon h3{
+    color: #252525;
+    line-height: 30px;
+    font-size: 21px;
+    
+}
+#section-user .section-user-item .user-icon p{
+    color: #999999;
+    line-height: 25px;
+    font-size: 14px;
+}
+/* 网站第三页面面向企业区域 */
+#section-enterprise{
+}
+#section-enterprise .enterprise-item{
+}
+#section-enterprise .enterprise-text{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+
+#section-enterprise .enterprise-item .enterprise-text{
+    margin-top: 150px;
+}
+#section-enterprise .enterprise-item .enterprise-text>img{
+    width: 200px;
+    box-sizing: content-box;
+    padding-right: 100px;
+}
+#section-enterprise .enterprise-item .enterprise-text p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #5f6464;
+}
+#section-enterprise .enterprise-item .enterprise-text p>img{
+    width: 45px;
+    margin: 30px 10px;
+    height: 17px;
+}
+#section-enterprise{}
+#section-enterprise .enterprise-img{}
+#section-enterprise .enterprise-img img{
+    width: 100%;
+
+}
+#section-enterprise .enterprise-industry{
+}
+#section-enterprise .enterprise-industry .enterprise-industry-header {
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+#section-enterprise .enterprise-industry .enterprise-industry-header h3{
+    width: 19%;
+    margin: auto 0;
+    margin-left: 50px;
+}
+#section-enterprise .enterprise-industry .enterprise-industry-header p{
+    font-size: 14px;
+    color: #5f6464;
+    width: 80%;
+}
+.enterprise-industry .enterprise-industry-section{
+    position: relative;
+}
+.enterprise-industry .enterprise-industry-section>img{
+    display: none;
+    transition: all 0.5s;
+    width: 100%;
+}
+.enterprise-industry .enterprise-industry-section ul{
+    margin-bottom: 100px;
+}
+.enterprise-industry .enterprise-industry-section ul .liactive{
+    
+    border-bottom: blue 5px solid;
+}
+
+.enterprise-industry .enterprise-industry-section ul{
+    margin-top: 20px;
+
+}
+.enterprise-industry .enterprise-industry-section ul li{
+    transition: all 0.5s;
+    box-sizing: border-box;
+    width: 24%;
+    text-align: center;
+    border-bottom: #ffffff 5px solid;
+    padding: 0 50px;
+    height: 200px;
+    display: inline-block;
+}
+.enterprise-industry .enterprise-industry-section ul li h3{
+    width: 100% !important;
+    line-height: 50px;
+    font-size: 21px;
+    font-family: "PingFangSC";
+    font-weight: 700;
+    text-align: left;
+}
+.enterprise-industry .enterprise-industry-section ul li p{
+    font-size: 14px;
+    color: #5f6464;
+    text-align: left;
+}
+.enterprise-tool{
+    width: 100%;
+}
+.enterprise-tool .enterprise-tool-header{}
+.enterprise-tool .enterprise-tool-header h3{
+    text-align: center;
+    font-weight: bold;
+}
+.enterprise-tool  .enterprise-tool-section{
+    margin: 60px 0;
+    display: flex;
+}
+.enterprise-tool  .enterprise-tool-section div{
+    width: 50%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.enterprise-tool  .enterprise-tool-section div img{
+    height: 45px;
+}
+.enterprise-tool  .enterprise-tool-section div p{
+    margin: 50px 0;
+    font-size: 14px;
+    color: #5f6464;
+}
+/* 网站第三页面面向科技部分样式区域 */
+#section-technology{
+    margin-bottom: 150px;
+}
+#section-technology .technology-item{}
+#section-technology .technology-item .techonlogy-header{
+    display: flex;
+    margin: 150px 0 50px 0;
+}
+#section-technology .technology-item .techonlogy-header h3{
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+    width: 20%;
+}
+#section-technology .technology-item .techonlogy-header p{
+    font-size: 14px;
+    color: #5f6464;
+    line-height: 30px;
+    width: 80%;
+}
+#section-technology .technology-item .techonlogy-header p img{
+    width: 60px;
+    margin: 20px 0;
+}
+#section-technology .technology-item .techonlogy-section{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#section-technology .technology-item .techonlogy-section>img{
+    width: 100%;
+    height: 100%;
+}
+#section-technology .technology-item .techonlogy-section .techonlogy-section-img{
+    
+    position: relative;
+    width: 50%;
+}
+#section-technology .technology-item .techonlogy-section .techonlogy-section-img img{
+    width: 100%;
+
+}
+#section-technology .technology-item .techonlogy-section .techonlogy-section-img h4{
+    color: #ffffff;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
